@@ -1,0 +1,7 @@
+老师后台导出作品集走"ZIP 打包"那条路能下，下下来的 zip 解开里面的 index.html 在浏览器里直接能看，作品图都在。这条 OK。
+
+但"HTML 单文件导出"那个按钮一点就 500。后端日志报 TypeError [ERR_INVALID_CHAR]: Invalid character in header content ["Content-Disposition"]，定位到 server/src/routes/export.js 第 21 行——你在 header 里直接把学生的中文名拼进 filename 了，Node 的 http 模块不认非 ASCII 字符直接给顶回去。家长姓名也是中文的一样会炸。这块没修等于这条功能直接没做。
+
+另外顺手发现的：老师如果真传 .svg 作品（前端 antd Upload 没拦后缀，老师日常用 AI 切出来的素材很多就是 SVG），getFileType 不认 .svg，落到库里的 file_type="other"，前台根本渲染不出来。这条不是当前轮任务里的硬需求，但既然老师后台能上传，也别让它静默丢类型。
+
+修一下。

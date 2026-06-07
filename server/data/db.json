@@ -1,0 +1,1066 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "created_at": "2026-06-07T01:44:51.811Z",
+      "name": "张小明",
+      "class_name": "一班",
+      "grade": "三年级"
+    },
+    {
+      "id": 2,
+      "created_at": "2026-06-07T01:44:51.812Z",
+      "name": "李小红",
+      "class_name": "一班",
+      "grade": "三年级"
+    },
+    {
+      "id": 3,
+      "created_at": "2026-06-07T01:44:51.813Z",
+      "name": "王小华",
+      "class_name": "二班",
+      "grade": "三年级"
+    },
+    {
+      "id": 4,
+      "created_at": "2026-06-07T01:44:51.815Z",
+      "name": "赵小芳",
+      "class_name": "二班",
+      "grade": "三年级"
+    },
+    {
+      "id": 5,
+      "created_at": "2026-06-07T01:44:51.816Z",
+      "name": "陈小伟",
+      "class_name": "三班",
+      "grade": "三年级"
+    },
+    {
+      "id": 6,
+      "created_at": "2026-06-07T01:44:51.818Z",
+      "name": "刘小美",
+      "class_name": "三班",
+      "grade": "三年级"
+    }
+  ],
+  "access_codes": [
+    {
+      "id": 1,
+      "created_at": "2026-06-07T01:44:51.821Z",
+      "code": "0CB2880B",
+      "student_id": 1,
+      "parent_name": "张小明家长",
+      "used_count": 1
+    },
+    {
+      "id": 2,
+      "created_at": "2026-06-07T01:44:51.822Z",
+      "code": "5D4E8A21",
+      "student_id": 2,
+      "parent_name": "李小红家长",
+      "used_count": 0
+    },
+    {
+      "id": 3,
+      "created_at": "2026-06-07T01:44:51.823Z",
+      "code": "ED7C8B7E",
+      "student_id": 3,
+      "parent_name": "王小华家长",
+      "used_count": 0
+    },
+    {
+      "id": 4,
+      "created_at": "2026-06-07T01:44:51.824Z",
+      "code": "4E044E89",
+      "student_id": 4,
+      "parent_name": "赵小芳家长",
+      "used_count": 0
+    },
+    {
+      "id": 5,
+      "created_at": "2026-06-07T01:44:51.825Z",
+      "code": "D062739C",
+      "student_id": 5,
+      "parent_name": "陈小伟家长",
+      "used_count": 0
+    },
+    {
+      "id": 6,
+      "created_at": "2026-06-07T01:44:51.825Z",
+      "code": "A963A40A",
+      "student_id": 6,
+      "parent_name": "刘小美家长",
+      "used_count": 0
+    }
+  ],
+  "artworks": [
+    {
+      "id": 1,
+      "created_at": "2026-06-07T01:44:51.829Z",
+      "student_id": 1,
+      "title": "张小明的作品 1",
+      "description": "",
+      "file_path": "/uploads/demo_1_0.svg",
+      "file_type": "image",
+      "file_name": "demo_1_0.svg",
+      "original_name": "张小明_作品1.svg",
+      "file_size": 336,
+      "semester": "2024-2025春季学期",
+      "grade": "B",
+      "comment": "更新后的评语",
+      "materials": "油画",
+      "created_date": "2025-05-01",
+      "is_final_excellent": 0,
+      "is_hidden": 0,
+      "pending_student": 0
+    },
+    {
+      "id": 2,
+      "created_at": "2026-06-07T01:44:51.833Z",
+      "student_id": 1,
+      "title": "张小明的作品 2",
+      "description": "",
+      "file_path": "/uploads/demo_1_1.svg",
+      "file_type": "image",
+      "file_name": "demo_1_1.svg",
+      "original_name": "张小明_作品2.svg",
+      "file_size": 281,
+      "semester": "2024-2025秋季学期",
+      "grade": "B",
+      "comment": "画面表现力很强，注意细节处理。",
+      "materials": "素描",
+      "created_date": "2025-02-15",
+      "is_final_excellent": 0,
+      "is_hidden": 1,
+      "pending_student": 0
+    },
+    {
+      "id": 3,
+      "created_at": "2026-06-07T01:44:51.835Z",
+      "student_id": 1,
+      "title": "张小明的作品 3",
+      "description": "",
+      "file_path": "/uploads/demo_1_2.svg",
+      "file_type": "image",
+      "file_name": "demo_1_2.svg",
+      "original_name": "张小明_作品3.svg",
+      "file_size": 433,
+      "semester": "2024-2025春季学期",
+      "grade": "B",
+      "comment": "进步很大，继续努力！",
+      "materials": "油画",
+      "created_date": "2025-03-15",
+      "is_final_excellent": 0,
+      "is_hidden": 0,
+      "pending_student": 0
+    },
+    {
+      "id": 4,
+      "created_at": "2026-06-07T01:44:51.836Z",
+      "student_id": 1,
+      "title": "张小明的作品 4",
+      "description": "",
+      "file_path": "/uploads/demo_1_3.svg",
+      "file_type": "image",
+      "file_name": "demo_1_3.svg",
+      "original_name": "张小明_作品4.svg",
+      "file_size": 336,
+      "semester": "2024-2025秋季学期",
+      "grade": "C",
+      "comment": "基础扎实，可以尝试更复杂的题材。",
+      "materials": "综合材料",
+      "created_date": "2025-04-15",
+      "is_final_excellent": 0,
+      "is_hidden": 0,
+      "pending_student": 0
+    },
+    {
+      "id": 5,
+      "created_at": "2026-06-07T01:44:51.837Z",
+      "student_id": 2,
+      "title": "李小红的作品 1",
+      "description": "",
+      "file_path": "/uploads/demo_2_0.svg",
+      "file_type": "image",
+      "file_name": "demo_2_0.svg",
+      "original_name": "李小红_作品1.svg",
+      "file_size": 281,
+      "semester": "2024-2025春季学期",
+      "grade": "A",
+      "comment": "构图完整，色彩搭配和谐，继续保持！",
+      "materials": "水彩",
+      "created_date": "2025-01-15",
+      "is_final_excellent": 1,
+      "is_hidden": 0,
+      "pending_student": 0
+    },
+    {
+      "id": 6,
+      "created_at": "2026-06-07T01:44:51.839Z",
+      "student_id": 2,
+      "title": "李小红的作品 2",
+      "description": "",
+      "file_path": "/uploads/demo_2_1.svg",
+      "file_type": "image",
+      "file_name": "demo_2_1.svg",
+      "original_name": "李小红_作品2.svg",
+      "file_size": 433,
+      "semester": "2024-2025秋季学期",
+      "grade": "B",
+      "comment": "画面表现力很强，注意细节处理。",
+      "materials": "素描",
+      "created_date": "2025-02-15",
+      "is_final_excellent": 0,
+      "is_hidden": 0,
+      "pending_student": 0
+    },
+    {
+      "id": 7,
+      "created_at": "2026-06-07T01:44:51.840Z",
+      "student_id": 2,
+      "title": "李小红的作品 3",
+      "description": "",
+      "file_path": "/uploads/demo_2_2.svg",
+      "file_type": "image",
+      "file_name": "demo_2_2.svg",
+      "original_name": "李小红_作品3.svg",
+      "file_size": 336,
+      "semester": "2024-2025春季学期",
+      "grade": "B",
+      "comment": "进步很大，继续努力！",
+      "materials": "油画",
+      "created_date": "2025-03-15",
+      "is_final_excellent": 0,
+      "is_hidden": 0,
+      "pending_student": 0
+    },
+    {
+      "id": 8,
+      "created_at": "2026-06-07T01:44:51.842Z",
+      "student_id": 2,
+      "title": "李小红的作品 4",
+      "description": "",
+      "file_path": "/uploads/demo_2_3.svg",
+      "file_type": "image",
+      "file_name": "demo_2_3.svg",
+      "original_name": "李小红_作品4.svg",
+      "file_size": 281,
+      "semester": "2024-2025秋季学期",
+      "grade": "C",
+      "comment": "基础扎实，可以尝试更复杂的题材。",
+      "materials": "综合材料",
+      "created_date": "2025-04-15",
+      "is_final_excellent": 0,
+      "is_hidden": 0,
+      "pending_student": 0
+    },
+    {
+      "id": 9,
+      "created_at": "2026-06-07T01:44:51.844Z",
+      "student_id": 3,
+      "title": "王小华的作品 1",
+      "description": "",
+      "file_path": "/uploads/demo_3_0.svg",
+      "file_type": "image",
+      "file_name": "demo_3_0.svg",
+      "original_name": "王小华_作品1.svg",
+      "file_size": 433,
+      "semester": "2024-2025春季学期",
+      "grade": "A",
+      "comment": "构图完整，色彩搭配和谐，继续保持！",
+      "materials": "水彩",
+      "created_date": "2025-01-15",
+      "is_final_excellent": 1,
+      "is_hidden": 0,
+      "pending_student": 0
+    },
+    {
+      "id": 10,
+      "created_at": "2026-06-07T01:44:51.846Z",
+      "student_id": 3,
+      "title": "王小华的作品 2",
+      "description": "",
+      "file_path": "/uploads/demo_3_1.svg",
+      "file_type": "image",
+      "file_name": "demo_3_1.svg",
+      "original_name": "王小华_作品2.svg",
+      "file_size": 336,
+      "semester": "2024-2025秋季学期",
+      "grade": "B",
+      "comment": "画面表现力很强，注意细节处理。",
+      "materials": "素描",
+      "created_date": "2025-02-15",
+      "is_final_excellent": 0,
+      "is_hidden": 0,
+      "pending_student": 0
+    },
+    {
+      "id": 11,
+      "created_at": "2026-06-07T01:44:51.862Z",
+      "student_id": 3,
+      "title": "王小华的作品 3",
+      "description": "",
+      "file_path": "/uploads/demo_3_2.svg",
+      "file_type": "image",
+      "file_name": "demo_3_2.svg",
+      "original_name": "王小华_作品3.svg",
+      "file_size": 281,
+      "semester": "2024-2025春季学期",
+      "grade": "B",
+      "comment": "进步很大，继续努力！",
+      "materials": "油画",
+      "created_date": "2025-03-15",
+      "is_final_excellent": 0,
+      "is_hidden": 0,
+      "pending_student": 0
+    },
+    {
+      "id": 12,
+      "created_at": "2026-06-07T01:44:51.869Z",
+      "student_id": 3,
+      "title": "王小华的作品 4",
+      "description": "",
+      "file_path": "/uploads/demo_3_3.svg",
+      "file_type": "image",
+      "file_name": "demo_3_3.svg",
+      "original_name": "王小华_作品4.svg",
+      "file_size": 433,
+      "semester": "2024-2025秋季学期",
+      "grade": "C",
+      "comment": "基础扎实，可以尝试更复杂的题材。",
+      "materials": "综合材料",
+      "created_date": "2025-04-15",
+      "is_final_excellent": 0,
+      "is_hidden": 0,
+      "pending_student": 0
+    },
+    {
+      "id": 13,
+      "created_at": "2026-06-07T01:44:51.872Z",
+      "student_id": 4,
+      "title": "赵小芳的作品 1",
+      "description": "",
+      "file_path": "/uploads/demo_4_0.svg",
+      "file_type": "image",
+      "file_name": "demo_4_0.svg",
+      "original_name": "赵小芳_作品1.svg",
+      "file_size": 336,
+      "semester": "2024-2025春季学期",
+      "grade": "A",
+      "comment": "构图完整，色彩搭配和谐，继续保持！",
+      "materials": "水彩",
+      "created_date": "2025-01-15",
+      "is_final_excellent": 1,
+      "is_hidden": 0,
+      "pending_student": 0
+    },
+    {
+      "id": 14,
+      "created_at": "2026-06-07T01:44:51.874Z",
+      "student_id": 4,
+      "title": "赵小芳的作品 2",
+      "description": "",
+      "file_path": "/uploads/demo_4_1.svg",
+      "file_type": "image",
+      "file_name": "demo_4_1.svg",
+      "original_name": "赵小芳_作品2.svg",
+      "file_size": 281,
+      "semester": "2024-2025秋季学期",
+      "grade": "B",
+      "comment": "画面表现力很强，注意细节处理。",
+      "materials": "素描",
+      "created_date": "2025-02-15",
+      "is_final_excellent": 0,
+      "is_hidden": 0,
+      "pending_student": 0
+    },
+    {
+      "id": 15,
+      "created_at": "2026-06-07T01:44:51.876Z",
+      "student_id": 4,
+      "title": "赵小芳的作品 3",
+      "description": "",
+      "file_path": "/uploads/demo_4_2.svg",
+      "file_type": "image",
+      "file_name": "demo_4_2.svg",
+      "original_name": "赵小芳_作品3.svg",
+      "file_size": 433,
+      "semester": "2024-2025春季学期",
+      "grade": "B",
+      "comment": "进步很大，继续努力！",
+      "materials": "油画",
+      "created_date": "2025-03-15",
+      "is_final_excellent": 0,
+      "is_hidden": 0,
+      "pending_student": 0
+    },
+    {
+      "id": 16,
+      "created_at": "2026-06-07T01:44:51.879Z",
+      "student_id": 4,
+      "title": "赵小芳的作品 4",
+      "description": "",
+      "file_path": "/uploads/demo_4_3.svg",
+      "file_type": "image",
+      "file_name": "demo_4_3.svg",
+      "original_name": "赵小芳_作品4.svg",
+      "file_size": 336,
+      "semester": "2024-2025秋季学期",
+      "grade": "C",
+      "comment": "基础扎实，可以尝试更复杂的题材。",
+      "materials": "综合材料",
+      "created_date": "2025-04-15",
+      "is_final_excellent": 0,
+      "is_hidden": 0,
+      "pending_student": 0
+    },
+    {
+      "id": 17,
+      "created_at": "2026-06-07T01:44:51.884Z",
+      "student_id": 5,
+      "title": "陈小伟的作品 1",
+      "description": "",
+      "file_path": "/uploads/demo_5_0.svg",
+      "file_type": "image",
+      "file_name": "demo_5_0.svg",
+      "original_name": "陈小伟_作品1.svg",
+      "file_size": 281,
+      "semester": "2024-2025春季学期",
+      "grade": "A",
+      "comment": "构图完整，色彩搭配和谐，继续保持！",
+      "materials": "水彩",
+      "created_date": "2025-01-15",
+      "is_final_excellent": 1,
+      "is_hidden": 0,
+      "pending_student": 0
+    },
+    {
+      "id": 18,
+      "created_at": "2026-06-07T01:44:51.886Z",
+      "student_id": 5,
+      "title": "陈小伟的作品 2",
+      "description": "",
+      "file_path": "/uploads/demo_5_1.svg",
+      "file_type": "image",
+      "file_name": "demo_5_1.svg",
+      "original_name": "陈小伟_作品2.svg",
+      "file_size": 433,
+      "semester": "2024-2025秋季学期",
+      "grade": "B",
+      "comment": "画面表现力很强，注意细节处理。",
+      "materials": "素描",
+      "created_date": "2025-02-15",
+      "is_final_excellent": 0,
+      "is_hidden": 0,
+      "pending_student": 0
+    },
+    {
+      "id": 19,
+      "created_at": "2026-06-07T01:44:51.889Z",
+      "student_id": 5,
+      "title": "陈小伟的作品 3",
+      "description": "",
+      "file_path": "/uploads/demo_5_2.svg",
+      "file_type": "image",
+      "file_name": "demo_5_2.svg",
+      "original_name": "陈小伟_作品3.svg",
+      "file_size": 336,
+      "semester": "2024-2025春季学期",
+      "grade": "B",
+      "comment": "进步很大，继续努力！",
+      "materials": "油画",
+      "created_date": "2025-03-15",
+      "is_final_excellent": 0,
+      "is_hidden": 0,
+      "pending_student": 0
+    },
+    {
+      "id": 20,
+      "created_at": "2026-06-07T01:44:51.892Z",
+      "student_id": 5,
+      "title": "陈小伟的作品 4",
+      "description": "",
+      "file_path": "/uploads/demo_5_3.svg",
+      "file_type": "image",
+      "file_name": "demo_5_3.svg",
+      "original_name": "陈小伟_作品4.svg",
+      "file_size": 281,
+      "semester": "2024-2025秋季学期",
+      "grade": "C",
+      "comment": "基础扎实，可以尝试更复杂的题材。",
+      "materials": "综合材料",
+      "created_date": "2025-04-15",
+      "is_final_excellent": 0,
+      "is_hidden": 0,
+      "pending_student": 0
+    },
+    {
+      "id": 21,
+      "created_at": "2026-06-07T01:44:51.897Z",
+      "student_id": 6,
+      "title": "刘小美的作品 1",
+      "description": "",
+      "file_path": "/uploads/demo_6_0.svg",
+      "file_type": "image",
+      "file_name": "demo_6_0.svg",
+      "original_name": "刘小美_作品1.svg",
+      "file_size": 433,
+      "semester": "2024-2025春季学期",
+      "grade": "A",
+      "comment": "构图完整，色彩搭配和谐，继续保持！",
+      "materials": "水彩",
+      "created_date": "2025-01-15",
+      "is_final_excellent": 1,
+      "is_hidden": 0,
+      "pending_student": 0
+    },
+    {
+      "id": 22,
+      "created_at": "2026-06-07T01:44:51.900Z",
+      "student_id": 6,
+      "title": "刘小美的作品 2",
+      "description": "",
+      "file_path": "/uploads/demo_6_1.svg",
+      "file_type": "image",
+      "file_name": "demo_6_1.svg",
+      "original_name": "刘小美_作品2.svg",
+      "file_size": 336,
+      "semester": "2024-2025秋季学期",
+      "grade": "B",
+      "comment": "画面表现力很强，注意细节处理。",
+      "materials": "素描",
+      "created_date": "2025-02-15",
+      "is_final_excellent": 0,
+      "is_hidden": 0,
+      "pending_student": 0
+    },
+    {
+      "id": 23,
+      "created_at": "2026-06-07T01:44:51.907Z",
+      "student_id": 6,
+      "title": "刘小美的作品 3",
+      "description": "",
+      "file_path": "/uploads/demo_6_2.svg",
+      "file_type": "image",
+      "file_name": "demo_6_2.svg",
+      "original_name": "刘小美_作品3.svg",
+      "file_size": 281,
+      "semester": "2024-2025春季学期",
+      "grade": "B",
+      "comment": "进步很大，继续努力！",
+      "materials": "油画",
+      "created_date": "2025-03-15",
+      "is_final_excellent": 0,
+      "is_hidden": 0,
+      "pending_student": 0
+    },
+    {
+      "id": 24,
+      "created_at": "2026-06-07T01:44:51.910Z",
+      "student_id": 6,
+      "title": "刘小美的作品 4",
+      "description": "",
+      "file_path": "/uploads/demo_6_3.svg",
+      "file_type": "image",
+      "file_name": "demo_6_3.svg",
+      "original_name": "刘小美_作品4.svg",
+      "file_size": 433,
+      "semester": "2024-2025秋季学期",
+      "grade": "C",
+      "comment": "基础扎实，可以尝试更复杂的题材。",
+      "materials": "综合材料",
+      "created_date": "2025-04-15",
+      "is_final_excellent": 0,
+      "is_hidden": 0,
+      "pending_student": 0
+    },
+    {
+      "id": 25,
+      "created_at": "2026-06-07T02:57:13.489Z",
+      "student_id": null,
+      "file_path": "/uploads/9dbde6ae-4144-420c-be9e-e9b4cf5e78c6.svg",
+      "file_type": "other",
+      "file_name": "9dbde6ae-4144-420c-be9e-e9b4cf5e78c6.svg",
+      "original_name": "test_art.svg",
+      "file_size": 336,
+      "semester": "2024-2025����ѧ��",
+      "pending_student": 1,
+      "is_final_excellent": 0,
+      "is_hidden": 0
+    }
+  ],
+  "tags": [
+    {
+      "id": 1,
+      "created_at": "2026-06-07T01:44:51.769Z",
+      "name": "美术",
+      "category": "学科",
+      "is_internal": 0
+    },
+    {
+      "id": 2,
+      "created_at": "2026-06-07T01:44:51.770Z",
+      "name": "设计",
+      "category": "学科",
+      "is_internal": 0
+    },
+    {
+      "id": 3,
+      "created_at": "2026-06-07T01:44:51.771Z",
+      "name": "手工",
+      "category": "学科",
+      "is_internal": 0
+    },
+    {
+      "id": 4,
+      "created_at": "2026-06-07T01:44:51.771Z",
+      "name": "写生",
+      "category": "项目类型",
+      "is_internal": 0
+    },
+    {
+      "id": 5,
+      "created_at": "2026-06-07T01:44:51.772Z",
+      "name": "创作",
+      "category": "项目类型",
+      "is_internal": 0
+    },
+    {
+      "id": 6,
+      "created_at": "2026-06-07T01:44:51.774Z",
+      "name": "课题",
+      "category": "项目类型",
+      "is_internal": 0
+    },
+    {
+      "id": 7,
+      "created_at": "2026-06-07T01:44:51.776Z",
+      "name": "水彩",
+      "category": "技能",
+      "is_internal": 0
+    },
+    {
+      "id": 8,
+      "created_at": "2026-06-07T01:44:51.776Z",
+      "name": "速写",
+      "category": "技能",
+      "is_internal": 0
+    },
+    {
+      "id": 9,
+      "created_at": "2026-06-07T01:44:51.778Z",
+      "name": "拼贴",
+      "category": "技能",
+      "is_internal": 0
+    },
+    {
+      "id": 10,
+      "created_at": "2026-06-07T01:44:51.779Z",
+      "name": "油画",
+      "category": "技能",
+      "is_internal": 0
+    },
+    {
+      "id": 11,
+      "created_at": "2026-06-07T01:44:51.780Z",
+      "name": "素描",
+      "category": "技能",
+      "is_internal": 0
+    },
+    {
+      "id": 12,
+      "created_at": "2026-06-07T01:44:51.781Z",
+      "name": "综合材料",
+      "category": "技能",
+      "is_internal": 0
+    },
+    {
+      "id": 13,
+      "created_at": "2026-06-07T01:44:51.783Z",
+      "name": "未完成",
+      "category": "状态",
+      "is_internal": 1
+    },
+    {
+      "id": 14,
+      "created_at": "2026-06-07T01:44:51.784Z",
+      "name": "重做中",
+      "category": "状态",
+      "is_internal": 1
+    }
+  ],
+  "artwork_tags": [
+    {
+      "id": 2,
+      "created_at": "2026-06-07T01:44:51.913Z",
+      "artwork_id": 2,
+      "tag_id": 2
+    },
+    {
+      "id": 3,
+      "created_at": "2026-06-07T01:44:51.914Z",
+      "artwork_id": 2,
+      "tag_id": 1
+    },
+    {
+      "id": 4,
+      "created_at": "2026-06-07T01:44:51.914Z",
+      "artwork_id": 3,
+      "tag_id": 1
+    },
+    {
+      "id": 5,
+      "created_at": "2026-06-07T01:44:51.915Z",
+      "artwork_id": 3,
+      "tag_id": 8
+    },
+    {
+      "id": 6,
+      "created_at": "2026-06-07T01:44:51.921Z",
+      "artwork_id": 3,
+      "tag_id": 10
+    },
+    {
+      "id": 7,
+      "created_at": "2026-06-07T01:44:51.922Z",
+      "artwork_id": 4,
+      "tag_id": 12
+    },
+    {
+      "id": 8,
+      "created_at": "2026-06-07T01:44:51.929Z",
+      "artwork_id": 5,
+      "tag_id": 11
+    },
+    {
+      "id": 9,
+      "created_at": "2026-06-07T01:44:51.931Z",
+      "artwork_id": 5,
+      "tag_id": 6
+    },
+    {
+      "id": 10,
+      "created_at": "2026-06-07T01:44:51.933Z",
+      "artwork_id": 6,
+      "tag_id": 8
+    },
+    {
+      "id": 11,
+      "created_at": "2026-06-07T01:44:51.935Z",
+      "artwork_id": 6,
+      "tag_id": 2
+    },
+    {
+      "id": 12,
+      "created_at": "2026-06-07T01:44:51.936Z",
+      "artwork_id": 6,
+      "tag_id": 1
+    },
+    {
+      "id": 13,
+      "created_at": "2026-06-07T01:44:51.937Z",
+      "artwork_id": 7,
+      "tag_id": 7
+    },
+    {
+      "id": 14,
+      "created_at": "2026-06-07T01:44:51.938Z",
+      "artwork_id": 8,
+      "tag_id": 8
+    },
+    {
+      "id": 15,
+      "created_at": "2026-06-07T01:44:51.939Z",
+      "artwork_id": 8,
+      "tag_id": 4
+    },
+    {
+      "id": 16,
+      "created_at": "2026-06-07T01:44:51.941Z",
+      "artwork_id": 9,
+      "tag_id": 1
+    },
+    {
+      "id": 17,
+      "created_at": "2026-06-07T01:44:51.942Z",
+      "artwork_id": 9,
+      "tag_id": 9
+    },
+    {
+      "id": 18,
+      "created_at": "2026-06-07T01:44:51.943Z",
+      "artwork_id": 9,
+      "tag_id": 7
+    },
+    {
+      "id": 19,
+      "created_at": "2026-06-07T01:44:51.959Z",
+      "artwork_id": 10,
+      "tag_id": 5
+    },
+    {
+      "id": 20,
+      "created_at": "2026-06-07T01:44:51.960Z",
+      "artwork_id": 11,
+      "tag_id": 6
+    },
+    {
+      "id": 21,
+      "created_at": "2026-06-07T01:44:51.962Z",
+      "artwork_id": 11,
+      "tag_id": 9
+    },
+    {
+      "id": 22,
+      "created_at": "2026-06-07T01:44:51.963Z",
+      "artwork_id": 12,
+      "tag_id": 1
+    },
+    {
+      "id": 23,
+      "created_at": "2026-06-07T01:44:51.964Z",
+      "artwork_id": 12,
+      "tag_id": 6
+    },
+    {
+      "id": 24,
+      "created_at": "2026-06-07T01:44:51.965Z",
+      "artwork_id": 12,
+      "tag_id": 8
+    },
+    {
+      "id": 25,
+      "created_at": "2026-06-07T01:44:51.966Z",
+      "artwork_id": 13,
+      "tag_id": 12
+    },
+    {
+      "id": 26,
+      "created_at": "2026-06-07T01:44:51.970Z",
+      "artwork_id": 14,
+      "tag_id": 1
+    },
+    {
+      "id": 27,
+      "created_at": "2026-06-07T01:44:51.972Z",
+      "artwork_id": 14,
+      "tag_id": 6
+    },
+    {
+      "id": 28,
+      "created_at": "2026-06-07T01:44:51.973Z",
+      "artwork_id": 15,
+      "tag_id": 5
+    },
+    {
+      "id": 29,
+      "created_at": "2026-06-07T01:44:51.975Z",
+      "artwork_id": 15,
+      "tag_id": 6
+    },
+    {
+      "id": 30,
+      "created_at": "2026-06-07T01:44:51.976Z",
+      "artwork_id": 15,
+      "tag_id": 1
+    },
+    {
+      "id": 31,
+      "created_at": "2026-06-07T01:44:51.976Z",
+      "artwork_id": 16,
+      "tag_id": 8
+    },
+    {
+      "id": 32,
+      "created_at": "2026-06-07T01:44:51.977Z",
+      "artwork_id": 17,
+      "tag_id": 4
+    },
+    {
+      "id": 33,
+      "created_at": "2026-06-07T01:44:51.978Z",
+      "artwork_id": 17,
+      "tag_id": 8
+    },
+    {
+      "id": 34,
+      "created_at": "2026-06-07T01:44:51.979Z",
+      "artwork_id": 18,
+      "tag_id": 7
+    },
+    {
+      "id": 35,
+      "created_at": "2026-06-07T01:44:51.980Z",
+      "artwork_id": 18,
+      "tag_id": 1
+    },
+    {
+      "id": 36,
+      "created_at": "2026-06-07T01:44:51.981Z",
+      "artwork_id": 18,
+      "tag_id": 8
+    },
+    {
+      "id": 37,
+      "created_at": "2026-06-07T01:44:51.982Z",
+      "artwork_id": 19,
+      "tag_id": 9
+    },
+    {
+      "id": 38,
+      "created_at": "2026-06-07T01:44:51.983Z",
+      "artwork_id": 20,
+      "tag_id": 8
+    },
+    {
+      "id": 39,
+      "created_at": "2026-06-07T01:44:51.984Z",
+      "artwork_id": 20,
+      "tag_id": 7
+    },
+    {
+      "id": 40,
+      "created_at": "2026-06-07T01:44:51.987Z",
+      "artwork_id": 21,
+      "tag_id": 9
+    },
+    {
+      "id": 41,
+      "created_at": "2026-06-07T01:44:51.989Z",
+      "artwork_id": 21,
+      "tag_id": 2
+    },
+    {
+      "id": 42,
+      "created_at": "2026-06-07T01:44:51.990Z",
+      "artwork_id": 21,
+      "tag_id": 11
+    },
+    {
+      "id": 43,
+      "created_at": "2026-06-07T01:44:51.991Z",
+      "artwork_id": 22,
+      "tag_id": 7
+    },
+    {
+      "id": 44,
+      "created_at": "2026-06-07T01:44:51.992Z",
+      "artwork_id": 23,
+      "tag_id": 1
+    },
+    {
+      "id": 45,
+      "created_at": "2026-06-07T01:44:51.993Z",
+      "artwork_id": 23,
+      "tag_id": 9
+    },
+    {
+      "id": 46,
+      "created_at": "2026-06-07T01:44:51.994Z",
+      "artwork_id": 24,
+      "tag_id": 10
+    },
+    {
+      "id": 47,
+      "created_at": "2026-06-07T01:44:51.995Z",
+      "artwork_id": 24,
+      "tag_id": 8
+    },
+    {
+      "id": 48,
+      "created_at": "2026-06-07T01:44:51.996Z",
+      "artwork_id": 24,
+      "tag_id": 1
+    },
+    {
+      "artwork_id": 1,
+      "tag_id": 1
+    },
+    {
+      "artwork_id": 1,
+      "tag_id": 2
+    },
+    {
+      "artwork_id": 1,
+      "tag_id": 4
+    },
+    {
+      "artwork_id": 1,
+      "tag_id": 7
+    }
+  ],
+  "likes": [
+    {
+      "id": 2,
+      "created_at": "2026-06-07T02:56:09.920Z",
+      "artwork_id": 7,
+      "access_code_id": 1
+    }
+  ],
+  "messages": [
+    {
+      "id": 1,
+      "created_at": "2026-06-07T01:44:51.998Z",
+      "student_id": 1,
+      "access_code_id": null,
+      "content": "老师好，请问孩子最近在学校表现怎么样？",
+      "parent_name": "张小明爸爸",
+      "reply": "小明爸爸您好，小明最近进步很大，尤其在色彩运用方面很有天赋。",
+      "is_replied": 1
+    },
+    {
+      "id": 2,
+      "created_at": "2026-06-07T01:44:51.999Z",
+      "student_id": 2,
+      "access_code_id": null,
+      "content": "老师，小红说想报美术兴趣班，您觉得她适合吗？",
+      "parent_name": "李小红妈妈",
+      "reply": null,
+      "is_replied": 0
+    },
+    {
+      "id": 3,
+      "created_at": "2026-06-07T02:56:32.651Z",
+      "student_id": 1,
+      "access_code_id": 1,
+      "content": "����������úܺ�",
+      "parent_name": "��С���ҳ�",
+      "reply": "лл����������������ܴ�",
+      "is_replied": 1
+    },
+    {
+      "id": 4,
+      "created_at": "2026-06-07T02:56:51.201Z",
+      "student_id": 1,
+      "access_code_id": 1,
+      "content": "孩子最近画得很好",
+      "parent_name": "张小明家长",
+      "reply": null,
+      "is_replied": 0
+    }
+  ],
+  "semesters": [
+    {
+      "id": 1,
+      "created_at": "2026-06-07T01:44:51.764Z",
+      "name": "2024-2025春季学期",
+      "is_current": 1
+    },
+    {
+      "id": 2,
+      "created_at": "2026-06-07T01:44:51.768Z",
+      "name": "2024-2025秋季学期",
+      "is_current": 0
+    }
+  ],
+  "counters": {
+    "semesters": 2,
+    "tags": 14,
+    "students": 6,
+    "access_codes": 6,
+    "artworks": 25,
+    "artwork_tags": 48,
+    "messages": 4,
+    "likes": 2
+  }
+}
