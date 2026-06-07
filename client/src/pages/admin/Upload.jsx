@@ -191,7 +191,7 @@ function Upload() {
             ref={fileInputRef}
             type="file"
             multiple
-            accept="image/*,video/*,.pdf"
+            accept="image/*,video/*,.pdf,.svg"
             style={{ display: 'none' }}
             onChange={handleFileSelect}
           />

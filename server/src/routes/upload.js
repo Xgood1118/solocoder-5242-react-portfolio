@@ -28,7 +28,7 @@ const upload = multer({
 
 function getFileType(filename) {
   const ext = path.extname(filename).toLowerCase();
-  if (['.jpg', '.jpeg', '.png', '.gif', '.bmp', '.webp', '.tiff'].includes(ext)) return 'image';
+  if (['.jpg', '.jpeg', '.png', '.gif', '.bmp', '.webp', '.tiff', '.svg'].includes(ext)) return 'image';
   if (['.mp4', '.webm', '.mov', '.avi', '.mkv'].includes(ext)) return 'video';
   if (['.pdf'].includes(ext)) return 'pdf';
   return 'other';

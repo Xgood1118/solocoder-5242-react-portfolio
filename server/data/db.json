@@ -50,7 +50,7 @@
       "code": "0CB2880B",
       "student_id": 1,
       "parent_name": "张小明家长",
-      "used_count": 1
+      "used_count": 2
     },
     {
       "id": 2,
@@ -90,6 +90,14 @@
       "code": "A963A40A",
       "student_id": 6,
       "parent_name": "刘小美家长",
+      "used_count": 0
+    },
+    {
+      "id": 7,
+      "created_at": "2026-06-07T08:34:36.250Z",
+      "code": "198A90EF",
+      "student_id": 2,
+      "parent_name": "李小红妈妈",
       "used_count": 0
     }
   ],
@@ -587,6 +595,20 @@
       "pending_student": 1,
       "is_final_excellent": 0,
       "is_hidden": 0
+    },
+    {
+      "id": 26,
+      "created_at": "2026-06-07T09:31:55.237Z",
+      "student_id": null,
+      "file_path": "/uploads/fbbdf27f-1ef3-403d-9d99-e2265ef91933.svg",
+      "file_type": "image",
+      "file_name": "fbbdf27f-1ef3-403d-9d99-e2265ef91933.svg",
+      "original_name": "test-svg.svg",
+      "file_size": 158,
+      "semester": "2024-2025�＾ѧ��",
+      "pending_student": 1,
+      "is_final_excellent": 0,
+      "is_hidden": 0
     }
   ],
   "tags": [
@@ -1057,8 +1079,8 @@
     "semesters": 2,
     "tags": 14,
     "students": 6,
-    "access_codes": 6,
-    "artworks": 25,
+    "access_codes": 7,
+    "artworks": 26,
     "artwork_tags": 48,
     "messages": 4,
     "likes": 2

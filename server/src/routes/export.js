@@ -17,8 +17,9 @@ router.get('/student/:studentId/semester/:semester', (req, res) => {
 
   const html = generatePortfolioHTML(student, semester, artworks, false);
 
+  const filename = `${student.name}_${semester}_作品集.html`;
   res.setHeader('Content-Type', 'text/html; charset=utf-8');
-  res.setHeader('Content-Disposition', `attachment; filename="${student.name}_${semester}_作品集.html"`);
+  res.setHeader('Content-Disposition', `attachment; filename="${encodeURIComponent(filename)}"; filename*=UTF-8''${encodeURIComponent(filename)}`);
   res.send(html);
 });
 
@@ -31,10 +32,14 @@ router.get('/student/:studentId/semester/:semester/zip', (req, res) => {
   const artworks = db.getArtworksByStudent(parseInt(studentId), semester)
     .filter(a => !a.is_hidden);
 
+  const zipFilename = `${student.name}_${semester}_作品集.zip`;
   res.setHeader('Content-Type', 'application/zip');
-  res.setHeader('Content-Disposition', `attachment; filename="${encodeURIComponent(student.name + '_' + semester + '_作品集')}.zip"`);
+  res.setHeader('Content-Disposition', `attachment; filename="${encodeURIComponent(zipFilename)}"; filename*=UTF-8''${encodeURIComponent(zipFilename)}`);
 
-  const archive = archiver('zip', { zlib: { level: 9 } });
+  const archive = archiver('zip', {
+    zlib: { level: 9 },
+    forceLocalTime: false,
+  });
   archive.pipe(res);
 
   const html = generatePortfolioHTML(student, semester, artworks, true);
